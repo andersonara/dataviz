@@ -1,0 +1,45 @@
+---
+title: "EXEMPLO <br> RMARKDOWN"
+author: "Anderson Ara <br> ALUNO 2 <br> <br> ALUNO 3"
+date: "01/04/2021"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+# TÍTULO 1
+
+ITENS:
+
+-   ITEM A
+
+    -   ITEM A1
+
+    -   ITEM A2
+
+## TÍTULO 2
+
+TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO**
+
+<br>
+
+TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO **NEGRITO** TEXTO *ITÁLICO* TEXTO **NEGRITO** TEXTO **NEGRITO**
+
+### TÍTULO 3
+
+```{r eval=F}
+summary(cars)
+```
+
+```{r echo=F, fig.align='center'}
+data(cars)
+#summary(cars)
+
+plot(cars,col='orange')
+
+```
+
+Média amostral = $$\sum^n_{i=1}\frac{X_i}{n}$$
+
+<br>
